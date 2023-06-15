@@ -1,0 +1,74 @@
+# Changes in v3.2
+
+## Protocol
+
+1. Background and Objectives
+============================
+
+1.1: inclusion of SARS-CoV-2 in list of emerging infections studied using the CCP.
+
+1.7:
+Clarification of tier system and specifically tier 2 serial biological sampling.
+Included comment about reducing sampling intensity as outbreak progresses.
+
+
+3. Methods
+==========
+
+3.2:
+Included comment that Tier zero (data only) will not require consent as it only requires non-identifiable information collected routinely.
+
+3.5 (Table 1):
+Processing of pathogen samples changed to "Do not process at site".
+Inclusion of 'R', 'S' and 'C' sample sets as referred to in subsequent Tier 2 samples schedule tables.
+
+3.5.2: Comment added to Tier zero: "As you are collecting CRF data only and not biological samples, no ethical approval or consent is required, therefore this protocol is not applicable."
+
+3.5.4: Addition of 4 tables illustrating selected Tier 2 sampling schedules. Appendix 2 includes a table depicting every schedule.
+
+3.5.4.1 (Table 7): clarification of age ranges for CSF sampling.
+
+3.5.5: New section for optional sub-studies, described in a table. New additions are environmental transmission, large volume convalescent sampling, humoral immune response, serial serology and serial BAL on ECMO.
+
+Addition of 3.5.5.1 and 3.5.5.2 providing additional details of two specific sub-studies (serial BAL on ECMO and large volume convalescent sampling, respectively).
+
+
+4. Specimens and Laboratory Analysis
+====================================
+
+4.3: updated table detailing sample processing requirements
+
+
+Appendix 2
+==========
+
+New appendix presenting a single table for each Tier 2 sampling schedule. Reference to https://isaric.net/ccp/ for online interactive presentation of same information.
+
+
+Appendix 3
+==========
+
+New appendix providing example logistics guidance document for recruiting sites.
+
+
+PISC
+====
+
+Addition of text to explain optional BAL/ECMO sub-study in adult forms.
+Additional forms for (i) large volume convalescent sampling and (ii) serial serology sub-studies.
+
+Tier record
+===========
+
+Addition of table for recording optional sub-studies
+
+
+# proposed
+
+Add these two lines to the consent form:
+
+I agree that my DNA sample, and data generated from my DNA, including the whole sequence of my genome, can be shared anonymously with qualified scientists elsewhere in the world for use in ethically-approved research. I understand that my name will not be used and I will not be identified.
+OR IF YOU DO NOT AGREE, TICK HERE ❑
+
+I agree that samples taken from me, or materials and data derived from those samples, can be used to manufacture tests, treatments or other products, including commercial products.
+OR IF YOU DO NOT AGREE, TICK HERE ❑
