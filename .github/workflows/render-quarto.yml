@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches: [ "master" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    # runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: 848897
+
+      - uses: actions/checkout@v3
+      
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 12
+      
+      - name: Install system dependencies
+        run: |
+          sudo apt update
+          sudo apt-get update
+          sudo apt-get install librsvg2-bin
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          # To install LaTeX to build PDF book 
+          tinytex: true 
+          # version: 1.0.38 # specific quarto version
+
+      - name: Check chrome
+        run: |
+          echo $(which google-chrome)
+          $(which google-chrome) --headless --single-process https://www.chromestatus.com
+
+      - name: Render Quarto Project
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add protocol/
+          git add protocol/*
+          git diff-index --quiet HEAD || git commit -m "Automatically re-generate quarto"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+ 
