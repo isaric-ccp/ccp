@@ -1,0 +1,512 @@
+---
+title: ISARIC/WHO Clinical Characterisation Protocol (CCP) for Severe Emerging Infections
+  and Syndromes
+subtitle: CCP version 3.3
+abstract: 'Adaptability is essential for preparedness. Since the next outbreak cannot
+  be predicted, the CCP is deliberately adaptable. In any outbreak, the actual research
+  activity undertaken will be restricted by the current scientific need and local
+  resource availability. By including a broad range of investigations, the CCP enables
+  independent review and institutional approvals to be obtained before the outbreak
+  hits. ![](img/header.pdf){width=16.4cm height=3.65cm}
+  **Open Source License**: this document was created by members of ISARIC
+  (International Severe Acute Respiratory and Emerging Infection Consortium) in collaboration
+  with the World Health Organization and is distributed under the [Creative Commons
+  Attribution Non-commercial ShareAlike Licence version 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0).
+  It is freely available for you to copy, adapt, distribute and transmit under the
+  conditions that: a) the original source is attributed; b) the work is not used for
+  commercial purposes; c) any altered forms of this document are distributed freely
+  under the same conditions. If you make modifications/translations/improvements we
+  would be grateful if you would consider sharing these - however minor they are -
+  with the international community through ISARIC: data@isaric.org. Versions will
+  be stored and shared at the permanent web address: [github.com/isasric-ccp](https://github.com/isaric-ccp/ccp).'
+bibliography: cs.bib
+---
+
+<!--
+3.3 changelog: Rename tiers to modules, and rearrange such that tier 1 is defined by the absence of local laboratory processing. Add data processing details. Convert to markdown. Simplify presentation with removal of sample days table. 
+-->
+
+
+# Background
+
+## Purpose of the Study
+
+This protocol exists to make it as easy as possible for researchers and clinicians to prepare for future outbreaks and novel threats. By establishing necessary approvals, data and sampling infrastructure in advance of an outbreak, we can be ready to understand any new disease as quickly as possible. The CCP is the product of a global consensus and is intended to support public health responses by enabling rapid, coordinated data collection, and to obtain consent from patients for research investigations that would not otherwise be possible. 
+
+The CCP is a standardised protocol for the rapid, coordinated clinical investigation of severe or potentially severe illness caused by acute infections by emerging or high-consequence pathogens or other noxious exposures (e.g. chemicals, toxins or potentially harmful energy sources) of public health interest. 
+
+Patients with acute illness suspected to be caused by emerging and unknown pathogens or exposures are eligible for inclusion. The extent of research activity can be adapted to local capacity and the scientific and clinical need. This is reflected in the use of modular case report forms and sampling schedules. Data can be provided in real-time or entered retrospectively. 
+
+## Principles
+
+1. **Governance**. Investigators retain control and decision-making over the data and samples they collect and share. 
+2. **Consensus**. The CCP is the product of a broad consensus. The core philosophy has changed very little from the original version in 2012, which was approved by the WHO global ethics committee. 
+3. **Preparedness**. is deterministic for success. Establishing approved procedures in advance should always take priority.
+4. **Adaptability**. The protocol can be adapted to requirements and resources as needed; retaining the ability to adapt ensures readiness for future outbreaks.
+5. **Harmonisation**. International harmonisation is an additional benefit, and can facilitate important collaborative analyses across borders.
+
+## Prior Uses
+
+The CCP has been in use around the world since the first version was released in 2014.[@dunningopensourceclinical2014a] It was used for the first clinical characterisation of novel coronavirus in Wuhan in 2020.[@huangclinicalfeaturespatients2020] In collaboration with its sister study, [GenOMICC](https://genomicc.org), the CCP was used in 2020 to discover a genetic variant (in *TYK2*)[@pairo-castineirageneticmechanismscritical2021] that led directly to a new, effective treatment for Covid-19, baricitinib.[@abanibaricitinibpatientsadmitted2022] It has been used in to support studies of H5N1 influenza, MERS, Ebola, Zika, tick-borne encephalitis virus (TBEV), Mpox, and many other outbreaks around the world.[@akhvledianiglobaloutbreakresearch2020] 
+
+Patients with acute illness suspected to be caused by emerging and unknown pathogens, or other exposures, will be enrolled. Multiple independent studies can be easily aggregated and analysed across many different settings globally. The protocol is the product of a long consensus process, followed by many years of discussion among international investigators from a wide range of scientific and medical disciplines.[@akhvledianiglobaloutbreakresearch2020; @dunningopensourceclinical2014a]
+
+## Background Information
+
+Infectious disease is the single biggest cause of death worldwide. When new infectious agents and exposures arise, there is both an urgent need, and a time-limited opportunity, to conduct clinical research. Depending on the outbreak there may be a need to understand risk factors, clinical presentations and trajectories, pathogen dynamics, pathogenesis in the host, to identify potential treatments or preventative measures, and to understand the pharmacokinetics and side effects of therapy.
+
+The work proposed here may require sampling that will not immediately benefit the participants. It may also require analysis of the host genome, which may reveal other information about disease susceptibility or other aspects of health status.
+
+## Target Audience of this Document
+
+This document is written for clinicians, researchers and others engaged in identification, triage and treatment of patients with severe acute or potentially severe infections due to the pathogens of interest. Any individuals or members of research units/networks are invited to use this document to facilitate their own studies and contribute data to the centralized database. We encourage any and all centres to contribute to this effort. The primary data remain with the individual sites but we hope by collecting similar data investigators will be willing to share their results and allow a much more complete analysis of the data.
+
+## Source of this Protocol
+
+This document is a product of collaboration between the World Health Organization (WHO) and the International Severe Acute Respiratory and Emerging Infections Consortium (ISARIC), and builds on a global consensus on observational research in emerging infections of public health interest.
+
+# Objectives {#sec-objectives}
+
+## Primary objectives
+
+In potential participants meeting the entry criteria, where appropriate and feasible, our primary objectives for each individual pathogen/exposure are to:
+
+**Characterise clinical features and pathophysiology**
+
+1. Describe the clinical features of the illness or syndrome featured by the outbreak of public health interest, be that infection, toxin, chemical or potentially harmful energy. 
+2. Explain disease pathogenesis and identify potential new therapeutic approaches.
+2. Understand risk factors for exposure, severe illness, death and deterioration.
+3. Describe patient trajectories (such as length of stay, requirement for invasive mechanical ventilation) to inform resource and logistical planning for healthcare systems.
+4. Describe the response to treatment, including supportive care and novel therapeutics.
+
+**Characterise the causative agent**
+
+1. Describe characteristics of causative agents including identity of new pathogens, variants or exposures, evolution of immune escape or resistance to therapeutic agents, and pathogen features associated with disease severity or transmission.
+2. Observe pathogen replication, excretion, and evolution within the host and identify determinants of severity and transmission using high-throughput sequencing of pathogen genomes obtained from respiratory tract, blood, urine, stool, CSF and other samples.
+3. Characterise the host responses to infection and therapy over time, including innate and acquired immune responses, circulating levels of immune signalling molecules and gene expression profiling in peripheral blood.
+1. Identify host genetic variants associated with disease progression or severity.
+1. Understand the impact of dose, route, and timing of noxious exposures on severity of illness.
+
+## Secondary Objectives
+
+Secondary objectives are to collect evidence to:
+
+1. Facilitate effective triage and clinical management of people with exposures to pathogens or noxious agents as relevant to this protocol.
+2. Inform clinical guidance documents and offer clinical recommendations to policy makers based on evidence obtained.
+
+# Methods
+
+## Activation
+
+Study recruitment will be activated upon presentation of an eligible participant or the occurrence of an event of public health interest. Within the scope of activities described in this protocol, the number of participants enrolled, volume of data collection and sampling schedule will be defined by the Principal Investigator and updated as appropriate based on the number of patients presenting to the site or other sites, resource availability, and evolving scientific knowledge. 
+
+Approval of the responsible ethics committee and institutional authority will be obtained before participants are recruited at any site.  
+
+## Stratified recruitment according to local resource
+
+The study will be conducted at multiple sites (to be determined by the spread of disease and availability of resources). It is appreciated that settings will vary in terms of clinical infrastructure, resources and capacity. Distinction is made to allow for resource-appropriate implementation of the protocol, and it is understood that data and/or specimen collection may be limited in certain settings. Observational analyses will be stratified as follows:
+
+- **Module 0 (no consent; data and clinical samples only)**: Routine clinical and laboratory data and samples may be collected but no biological samples will be obtained for research purposes. The minimum, essential clinical data set will summarise the illness episode and outcome, with the option to collect additional detailed clinical data during or after the acute illness episode, according to local resources and evidence needs. 
+
+- **Module 1 (consent required; simple and stable samples)**: Individual informed consent is required. Simple, stable samples that do not require laboratory processing at the recruiting site will be obtained. These include host DNA and RNA, dried blood spots, and cell samples in preservative. 
+
+- **Module 2 (consent required; local laboratory required)**: Individual informed consent is required. Samples requiring laboratory processing at the recruiting site will be obtained. These include blood plasma and serum, and pathogen samples obtained specifically for research. 
+
+- **Module 3 (consent required; local specialist laboratory required)**: Individual informed consent is required. Samples requiring specialist laboratory facilities at the recruiting site will be obtained. These include specialist research immunology assays and pharmacokinetics studies. 
+
+At a given time, each site will recruit within a given module. The currently-active module will be recorded in the site file **Module Record Form**. Changes to the module a given site is recruiting to will be documented by the Principal Investigator (PI). As an outbreak progresses, and more cases occur, it is anticipated that both the research priorities and the local resource availability will change. Within a given institution, cases recruited at different stages of an outbreak can be sampled at different intensities and may be recruited to different modules of the study.
+
+![Modular approach to recruitment in settings with different resources. This information is included to demonstrate the integration of this study with other studies following the same approach in other parts of the world.](img/ccp_t3.pdf){width=1000px height=430px}
+
+### Data collection {#sec-data-collection}
+
+Data will be collected for each participant based on a standardised disease characterisation model. available as a paper case report form (CRF), web-based electronic “eCRF”, or database to which health records or other data sources are mapped. The contents of the study CRFs are dynamic and refined as an event progresses. 
+
+The following classes of data may be obtained:
+
++	*Essential CRF content*. the minimum data required to understand the key risk groups and disease severity irrespective of the cause of illness: demographic data, signs and symptoms at presentation, comorbidities, diagnosis, and outcome. Data derived from clinical samples of the pathogen or other putative causal agent, possibly including pathogen genomic sequences, may be collected. Data are collected from routine health records.
++	*Core CRF content*. Clinical findings and interventions to understand the spectrum of disease, disease progression and duration, resource utilisation. Data are collected from routine health records.
++	*Site CRF*. To capture site-level administrative information such as location, sampling strategy used, dates of data collection initiation and completion. 
++	*Additional CRF sections*. These groups of additional variables address research questions in specific populations or conditions. Data are collected from routine health records, and additional data will be collected via participant interview with consent.
+
+## Entry Criteria
+
+This study will enrol eligible patients (children and adults, including patients who are pregnant and breast-feeding), who meet the criteria below. These criteria are purposefully broad and may be explicitly restricted if required by local resource limitations, for example to *CONFIRMED INFECTION* only.
+
+### Inclusion criteria
+
+1. *CONFIRMED INFECTION.* Confirmed infection with an emerging or high-consequence pathogen, or 
+1. *SUSPECTED INFECTION.* Suspected infection with an emerging or high-consequence pathogen, or 
+2. *CONFIRMED EXPOSURE.* Confirmed exposure to a pathogen, toxin, chemical or other exposure of public health interest, or
+2. *SUSPECTED EXPOSURE.* Suspected exposure to a pathogen, toxin, chemical or other exposure of public health interest, or
+3. *PILOT.* Suspected or confirmed exposure to a pathogen, toxin, chemical or other exposure agreed with the investigators and local research teams for the purpose of testing CCP preparedness infrastructure in a pilot study for a maximum period of one week.
+
+### Exclusion criteria:
+
+1. For modules 1 and above (where consent is required), refusal to participate by patient, parent or appropriate representative.
+
+## Study Design
+
+This is a prospective observational cohort study.
+
+## Sample Size
+
+This is a descriptive study of syndromes which may be caused by a number of different known or poorly understood pathogens or exposures. Therefore, the sample size is not prospectively determined. Recruitment of participants will depend on the emergence and spread of the various pathogens or exposures, and the resources available to the recruitment centres. The sample size will vary for each location but should be as large as feasible while urgent and important clinical questions remain unanswered (see @sec-objectives).
+
+This protocol will be opened at sites with capacity and capability to recruit to any module of study intensity. The study has no end date.
+
+## Identification of Potential Participants
+
+In a health care setting, potential participants will be identified by clinical or research staff upon presentation at recruiting sites or through public health agencies. In the community, potential participants may be identified through relevant clinical or public health agencies. 
+
+Patients will only be considered for enrolment if appropriate local infection control and prevention measures are in place and can be maintained.
+
+When resources allow, sites may establish and document procedures to minimise bias in the selection of participants (see @sec-selection-of-participants).
+
+### Selection of Participants {#sec-selection-of-participants}
+
+In some circumstances, robust analysis requires methodical selection of patients for data collection. This is usually the case where the primary aim is large-scale data collection to explore the features of, and risk factors for, illness. Each site has its own requirements, abilities, and limitations to participant recruitment and should select the sampling approach that fits best. Record the sampling approach taken for each unique date range in your site level CRF.
+
+| Type of sampling | Explanation |
+| ------- | --------|
+| Ad hoc | Enrol patients as you are able, without systematic selection. |
+| Census | Enrol all potential participants who present to your setting. |
+| Sequential/systematic sampling | Enrol patients based on their time of presentation. E.g., every 3rd patient who presents to the hospital, or all patients who present on even calendar days (2nd, 4th, 6th) |
+| Simple random sampling | Use a tool to randomly determine if each patient is enrolled. E.g., use an online tool to generate a random list of Yes/No variables in the desired proportion and apply them sequentially as patients present (note:  this should be done so that no one knows the next variable) |
+| Defined population census, e.g., ICU patients | Enrol all patients admitted to ICU. |
+
+## Approach to Potential Participants
+
+### Module 0
+
+This requires collection of limited clinical data from the routine health record in a form that does not identify the patient. Consent will not be obtained. 
+
+### Modules 1 and above.
+
+When it has been decided that biological sampling can be performed safely and appropriate consent has been obtained, samples taken early may be most useful for identification or evaluation of risk factors for disease progression at a clinically-relevant decision point. Therefore it is desirable to begin sampling as early as possible following presentation.
+
+Where patients lack capacity to consent to participation, an appropriate representative/consultee/parent/guardian will be approached by staff trained in consent procedures that protect the rights of the patient, and adhere to the ethical principles within the Declaration of Helsinki. Staff will explain the details of the study to the participant or parent/guardian/consultee and allow them time to discuss and ask questions. The staff will review the informed consent form with the person giving consent and endeavour to ensure understanding of the contents, including study procedures, risks, benefits, the right to withdraw and alternatives to participation. The consenting party will be asked to sign and date an informed consent form. If the patient is a child, the person with parental responsibility and the child, if competent, should both provide consent/ assent.
+
+In view of the importance of early samples, participants or their parent/guardian/consultee will be permitted to consent immediately and begin to participate in the study if they wish to do so. Those who prefer more time to consider participation will be approached again after an agreed time, normally one day, to discuss further.
+
+An outbreak involving a pathogen of public health interest or other exposure is an emergency. Patients who are incapable of giving consent in emergency situations are an exception to the general rule of informed consent in clinical research. This is clearly acknowledged in the Declaration of Helsinki (2008). The process of consent will comply with the principles of Good Clinical Practice and with the laws regulating clinical research in the recruiting centre.
+
+For studies that collect or collate only anonymised data that is normally collected, as part of routine care, consent may not be required.
+
+## Standard of Care
+
+All patients will be treated according to standard clinical practice regardless of their participation in the study.
+
+Provision of care will vary by site and by treating physician. It is not possible to define a single standard of care and therefore to define what samples will be taken as a part of medical management and when. The results of tests performed on research samples are unlikely to benefit the health of the participants.
+
+## Enrolment Procedures
+
+Potential participants who satisfy the inclusion/exclusion criteria and, where applicable, have given informed consent to participate, will be enrolled to the study. All participants will be assigned a study number. Sites that require an enrolment log will record the study number along with participant details and securely store this information with any signed consent forms. 
+
+The day of recruitment will be counted as Day 1. All study days will be counted from this point forward. When applicable, research sampling should occur as early as possible following enrolment.
+
+## Data Collection and Sampling for Patients
+
+### Clinical Data Collection
+
+The study case report forms are designed to collect data at presentation (Presentation form), during the acute illness or hospital stay if applicable (Daily form), and at discharge, death, or the end of the study (Outcome form). The case report forms include the content outlined in @sec-data-collection. The Principal Investigator will define which forms will be completed during the study, adjusting as needed to generate actionable data that respond to the priority knowledge gaps.   
+
+### Sample acquisition
+
+Samples will be collected according to the protocol modular approach, available resources and the weight of the patient, to prevent excessive volume sampling from children, young people and small adults.
+
+Samples required for clinical management will at all times have priority over samples taken for research tests. Aliquots or samples for research purposes should never compromise the quality or quantity of samples required for medical management. Wherever practical, taking research samples should be timed to coincide with clinical sampling. The research team will be responsible for sharing the sampling protocol with health care workers supporting patient management in order to minimise disruption to routine care and avoid unnecessary procedures.
+
+Some samples should be processed and stored at -80°C. We recognise that -80°C storage is not available at all sites. In this case please store at coldest available temperature and at least -20°C.
+
+For patients with high consequence pathogens, the biological sampling will be limited to extra volumes of blood taken at times to coincide when blood is being taken for clinical purposes and then only at the discretion of the clinical team.
+
+### Sample Collection Schedules
+
+Samples will be obtained up to a maximum frequency of daily, within the maximum sample volumes shown in @tbl-max-blood-vol. In almost all cases the sampling frequency will be much less than this maximum. The current active sampling module and frequency are decided by the local principal investigator at each site and recorded at the front of the site file. For an example of this guidance, see @sec-example-guidance.
+
+Since this would in all cases result in a reduced burden to patients and recruiting sites, no additional ethical or management approval will be sought to omit samples specified here.
+
+### Specimen Sampling, Storage Procedures and Transport
+
+Local hospital protocols will be used to collect and handle specimens. Guidance on the collection of specimens from patients with emerging infections can be found on the WHO website.
+
+In dealing with novel pathogens where little is known about transmissibility and/or virulence or potentially noxious agents, great care must be exercised to ensure the safety of hospital staff and other patients. Adherence to collection protocols, biosafety and adequate personal protective equipment (PPE) is essential. Biosafety procedures will be as per local policy/guidance, will be in keeping with any national and/or international regulations, and will be applied to the collection, storage, transfer and laboratory handling of research samples.
+
+Emerging or remerging pathogens may be classified as requiring BSL2, BSL3 or BSL4 safety management and guidelines should be consulted as per hospital protocol. In addition, an emergent agent may also be risk assessed as posing a threat to animal health, and may be regulated under the specified animal pathogens order as well. Laboratories planning to participate in the study should consider how they would fulfil a requirement to handle research samples in addition to clinical samples.
+
+All samples collected must be labelled according to local policy. 
+
+### Samples to be obtained
+
+Tables @tbl-max-blood-vol shows the maximum volumes of each sample to be obtained. In the event of CCP activation, a modified table of sample processing instructions in @tbl-sample-processing-m1 and @tbl-sample-processing-m2 will be provided to each site, specifiying which samples are to be obtained. As the activation evolves and understanding of the emerging syndrome or outbreak advances, this will be further modified.
+
+{{< include tables/max-blood-vol.md >}}
+
+Where samples are obtained opportunistically during clinically-indicated lumbar puncture procedures, the maximum volumes are shown in @tbl-max-csf-vol
+
+{{< include tables/max-csf-vol.md >}}
+
+#### For CNS infections only – residual cerebrospinal fluid from clinical sampling
+
+If after recruitment a lumbar puncture is clinically indicated, an additional sample of up to 5mls (@tbl-max-csf-vol) will be collected in a universal sterile tube, provided it is deemed appropriate by the supervising clinician. Any residual CSF from samples taken as part of routine clinical care will be collected and stored if available. This will allow:
+
+- Extraction of RNA/DNA from causative pathogens and other circulating pathogens for molecular testing, genomic studies and virus isolation
+
+- Serological testing for pathogen-specific antibodies
+
+- Testing for mediators, metabolites and potential biomarkers
+
+
+### Example activation guidance document for recruiting sites  {#sec-example-guidance}
+
+--------------
+
+## ISARIC/WHO Clinical Characterisation Protocol Recruitment Procedures for COVID-19 {.unnumbered}
+
+- Inclusion criteria: CONFIRMED OR SUSPECTED INFECTION WITH SARS-COV-2
+- Participant identification strategy: Ad Hoc
+- Module: Module 1
+
+### Sampling instructions: {.unnumbered}
+
+| Day from recruitment | Adult (>40kg) | 
+| --- | --- |
+| Day 1 | 6ml EDTA blood, 3ml Tempus tube | 
+| Day 4 | 3ml Tempus tube | 
+| Day 7 | 3ml Tempus tube | 
+
+--------------
+
+### Optional sub-studies
+
+In addition to the module and sampling schedule decided by the PI, optional sub-studies can be included.
+
+#### Serial bronchoalveolar lavage during extra-corporeal membrane oxygenation
+
+In small numbers of patients with refractory respiratory failure due to SARI receiving extra-corporeal membrane oxygenation (ECMO) in a specialist centre, the opportunity exists to safely perform serial bronchoscopy for research purposes without the risk of impairing oxygenation (in contrast to bronchoscopy performed when oxygenation is dependent on mechanical ventilation). This is also safer for the operator since the patient can be paralysed and ventilation can be temporarily discontinued, reducing aerosol generation. Broncho-alveolar lavage specimens obtained in this context could be processed to allow analysis of viral load, bacterial or fungal co-infection, and host soluble immune mediators in the distal airway.
+
+### Pharmacokinetic/Pharmacodynamics Studies
+
+Where specialist local laboratory facilities are available to rapidly process samples (Module 3), and other local resources allow, pharmacokinetic studies may be undertaken. Additional information and samples will be sought during treatment with antimicrobial or immunomodulatory therapies in order to investigate the relationship between dose and plasma drug concentrations, to determine the variability in pharmacokinetics in patients receiving these drugs, and to identify the key pharmacokinetic drivers of pharmacodynamic outcomes (measured using pathogen load, inflammatory markers, illness severity scores or drug toxicity). This information will be collected on the pharmacokinetics record form, and includes both the precise (to the minute) times of drug administration and the precise time of blood sampling.
+
+Samples obtained will be split as required for pharmacokinetic/pharmacodynamic analysis of each antimicrobial or immunomodulatory therapy prescribed; the volume of blood to be drawn will not increase.
+
+#### Large volume convalescent sampling
+
+In a small number of patients (likely to be less than 10 patients for each emerging infection) there is a need for additional sampling after recovery from acute illness to enable generation of serological tests, setting of reference standards for serology, extraction and culture of peripheral blood mononuclear cells (PBMCs) for cellular immunology studies, and generation of monoclonal antibodies for research, diagnostic and therapeutic use. These studies are often extremely valuable in the global response to a new pathogen.
+
+Immune cells, including monocytes, monocyte-derived macrophages, neutrophils and lymphocytes will be isolated from peripheral blood and studied immediately or following culture. Gene expression, protein synthesis and degradation, cytokine release and other functional studies will be measured in immune cells from cases and age- and sex- matched controls. Cells will be stored for future use and may be used in the generation of commercial products.
+
+Patients who participated, with appropriate consent, in this study may be invited to provide additional samples under separate consent for this part of the study. All blood samples will be obtained by an experienced phlebotomist. Participants will be fully recovered, otherwise healthy individuals with no contraindications to blood donation, including:
+
+• Infection with any blood borne diseases (e.g. HIV, Hepatitis B or Hepatitis C)
+
+• Previous or current intravenous drug abuse
+
+• Current anaemia
+
+• Blood clotting disorders
+
+• Current anticoagulant (blood thinning) drug therapy
+
+• History of donations to the blood transfusion service (or any other donation) within the last 12 weeks.
+
+Depending on the participant’s weight, the following maximum volumes of blood will be obtained:
+
+• \>40kg: 240mls (6.0mls/kg)
+
+• 20-40kg: 80mls (4.0mls/kg)
+
+## Follow-Up Procedures for Patients
+
+Follow-up procedures (e.g. convalescent sampling) will be undertaken only when resources allow and if appropriate biological safety measures can be maintained. 
+
+Once acute illness is resolved, or once patients are discharged from hospital, sampling will discontinue until the 3 month and 6-month visits. All patients will be asked to return for a convalescent visit and blood sample at 3 months and 6 months post recruitment.
+
+Resolution of acute illness is defined as: Clearance of pathogen from appropriate samples, return of systemic inflammatory response to considered 'normal' values and one of: 1) recovery from organ failure(s)/need for organ support, 2) resolution of the presenting complaint(s), 3) return to life-style prior to illness.
+
+## Withdrawal
+
+Patients who request to be withdrawn, and patients enrolled to the study whose illness is subsequently confirmed to be the result of infection with a pathogen which is not relevant to the objectives of this study, and who have no indication or likelihood of co-infection with a relevant pathogen, will be withdrawn. After withdrawal, no further follow-up will be conducted.
+
+## Use of Stored Samples
+
+Samples will only be stored in containment facilities that have appropriate biological safety measures in place and have received necessary authorisation to store samples (according to national regulations for the pathogen being studied). Testing that cannot be done in country may be exported under an appropriate material transfer agreement. All specimen transport will adhere to WHO and national guidance.
+
+## Future Use of Samples
+
+Access to samples for additional analyses will be governed by the site that collected the samples, according to local and national guidance and approvals. 
+
+Samples collected will be used for the purpose of this study as stated in the protocol. The standard consent form will request consent from subjects for sample storage, future use and/or export of specific samples to collaborating institutions for investigations that cannot be performed locally. Participant decisions will be recorded in the study database.
+
+Any proposed plans to use samples other than for those detailed in this protocol will be submitted to the relevant ethics committees prior to any testing. Collaborating centres must have appropriate biological safety measures and regulatory approvals in place in order to receive samples.
+
+Any database detailing clinical data will only identify participants by a participant number. Participant names or any other identifying details will NOT be included. Data may be used alone or in combination with data from related studies in secondary analyses. Data is hosted on REDCap, a secure web platform for building and managing online databases and surveys.
+
+# Data Management
+
+## Data Collection
+
+Clinical, demographic and laboratory data will be collected during the study period according to local resources and evidence needs. Priority will always be given to the collection of information for routine clinical care. Research data will be integrated as much as possible with information available from health records. Extraction of data from electronic health records will be established where feasible to reduce the burden on front line staff. 
+
+Identifying information will be recorded on the informed consent form and enrollment log only, and retained securely at the enrolling site. The enrolment log will link the participant to a pseudonymised study number. This number will be the only identifier recorded on the study case report form and database.
+
+## Data Management
+
+Pseudonymised data will be collected in a study database. Participant identity will be protected and their information held securely. All access to data will be protected by physical and electronic systems to prohibit access by any unauthorised parties. 
+For the Clinical Characterisation Protocol access to the data entry system will be protected by username and password. Username and password will be assigned during the registration process for individual Site Investigators. All electronic data transfer between study site and database will be username and password protected. Each centre will maintain a trial file including a protocol, ethics approval documentation, and paper CRFs. A participant list will be used in each study site to match identifier codes in the database to individual patients in order to record clinical outcomes and supply any missing data points. 
+
+Data and results from central laboratory analysis for individual patients will be available to the clinicians looking after those patients as soon as possible. Often, this may not be in time to affect treatment decisions. Research data will be shared with public health authorities as needed.
+
+## Data Quality
+
+Several procedures to ensure data quality and protocol standardisation will help to minimise bias. These include:
+
+- A detailed data dictionary will define the data to be collected on the case report form;
+- A case report form completion guide is available to provide clear definitions and instructions on how to record data;
+- Quality checks will be built into the data management system, alerting staff when required data are missing or lie outside of an expected range;
+- Data may be monitored by site or central study staff with appropriate permissions;
+- Data queries will be run on any data shared to the ISARIC platform.
+
+## Data Access and Data Sharing
+
+This study is designed to support rapid research response to events of public health concern. The evidence generated to inform patient management and public health policy is strengthened by collective action and collaboration. As such, ISARIC encourages sharing of data via mechanisms that promote collaborative analyses while protecting the interests of participants and the staff who collect the data. ISARIC supports full recognition of the clinical investigators contributing to research, often in extremely difficult circumstances, and enables their ability to access data and samples. 
+
+Each site owns the data they collect and will make their own decision if and when to share data. Sites who decide to contribute data to the central ISARIC platform will have access to all platform data for the same disease/event to execute new collaborative analyses as per the governance of the [ISARIC Partner Analysis Scheme](https://isaric.org/partner-analyses/).
+
+Where possible and within the constraints of international law and specific requirements of local ethical and institutional management approvals, data will be shared centrally within one master database managed by ISARIC, which will be fully compliant with standard data management processes and local regulations. This database will be held on secure servers.  Access to data for outside investigators will be reviewed by the data and materials access committee.
+
+## Monitoring
+
+Data monitoring will be conducted on a randomly selected subset (up to 5%) of cases, through discussion with the local site investigator to discuss data collection techniques. Direct site visits will not be feasible, given the scope of the study.
+
+# Ethical Considerations
+
+This study is to be conducted during a disease outbreak or presentation of cases of disease of public health interest. This is a challenging research situation because this falls in the area between clinical care, public health and clinical research (WHO Ethical Review in Disease Outbreak Expert Meeting 2009). Normally research activities are defined by anything conducted outside standard clinical care. In these situations, there may be no definitive standard guidelines or treatment protocols and therefore there is often little difference between what can benefit the patients and what is very important for building knowledge on the pathogenesis of the disease to guide future treatment and management.
+
+Medical management of participants in this study must never be compromised by study procedures. At all times, priority will be given to samples required for medical management. Research sampling should never compromise the quantity or quality of samples taken for medical management, nor create a significant diversion for clinical teams from the day-to-day care of the patients.
+
+## Regulations, Guidelines and Ethical Review
+
+This study will be conducted in compliance with the principles set out in the Declaration of Helsinki. Where applicable, the principles of Good Clinical Practice (ICH 1996) and other applicable regulations and guidelines will be used to guide procedures and considerations.
+
+This protocol will be reviewed and approved by the ethical and regulatory review boards required by the recruiting site and the study sponsor. No patients will be enrolled until all approvals have been obtained for the applicable site.
+
+## Informed Consent
+
+Consent forms will be provided in plain English. Illiterate participants will have the consent form read in the presence of a witness, who will sign to verify the accurate reading of the form and agreement of the participant. For participants who cannot understand the language of the available forms, verified translations will be made when possible. If it is not possible to prepare a translation in a required language, verbal translation of the document and the consent discussion (if required) will be used. In this case, the translator may act as the witness for consent and sign the consent form so that patients who cannot read the language of the forms are not excluded from this research.
+
+In the case of adult participants who are unable to give informed consent due to mental or physical status, the wishes of the participant may be declared by an appropriate consultee according to the site policy on obtaining consent for medical procedures. If, during the course of the study, the participant's status changes such that they are able to consider consent independently, informed consent must be discussed and obtained.
+
+Parents or guardians of children under the age of 16 years old will give consent for their child. Study staff obtaining consent will consider the ability of the child to understand the principles of the study and will discuss the study with the child in age appropriate language. Where appropriate, children will be invited to give assent, which will be recorded on the informed consent form. The right to withdraw at any time without negative impact will be reinforced with the child and their parent/guardian. Should the UK rules on consent by young people for research purposes alter during the period of this study to allow consent by competent minors, then these new rules will be applied to this study without further amendment.
+
+A copy of the informed consent form will be given to the person who gives consent.
+
+## Alternatives to Participation and Withdrawal
+
+Prospective participants are freely able to decline participation in this study or to withdraw from participation at any point without suffering any implied or explicit disadvantage. All patients will be treated according to standard practice regardless of if they participate.
+
+## Risks to Participants
+
+### Inconvenience
+
+Participation in this research study poses a minimal risk of inconvenience through household visits and attendance of follow-up visits. Appropriate compensation for travel costs to attend follow-up visits and for time of attending visits will be given according to the standard policies of the sponsor.
+
+### Phlebotomy
+
+Participants may have blood drawn more often than is required for standard care. Phlebotomy can be associated with pain at the draw site and rarely with infection. Daily blood draw volumes have been restricted according to weight so that combined clinical and research sampling is within recommended limits. Discomfort will be minimized by having expert staff obtain blood samples, and by combining research sampling with routine clinical sampling, where possible, which normally occurs daily in acutely unwell patients in hospital.
+
+### Discomfort of respiratory swabs
+
+Collecting respiratory swabs may be cause transient discomfort. Discomfort and risk will be minimized by using experienced clinical staff at each site, and samples will be taken at the same time as clinical samples in order to minimize these risks.
+
+### Discomfort of lumbar puncture
+
+Collection of cerebrospinal fluid with lumbar puncture will only be performed if clinically indicated, as decided by the responsible physician. Clinical investigations are the priority, with any remaining sample collected for use in research. Guidance on the safe recommended daily total volume of CSF to take in different age groups is provided in @tbl-max-csf-vol. Lumbar puncture can be associated with discomfort at the site of needle insertion, headache, and rarely bleeding or infection.
+
+### Incidental findings in genetic testing
+
+ This study includes genetic testing to identify host genetic variants associated with disease progression or severity. There is a very small chance that these tests may result in the incidental discovery of information that is relevant to the participant's health. Since the samples will be analysed anonymously in batches, and generally in non-clinical laboratories with investigational techniques, we will not attempt to identify and inform participants of any results from genetic tests.
+
+### Specific risks for VHF patients.
+
+Participants with VHF may be at increased risk of bleeding from venepuncture sites. The decision to perform venepuncture for research purposes will only be performed following discussion with the attending clinician and only if venepuncture is deemed not to pose unacceptable risk to the patient and/or staff. When at risk venepuncture will be minimised by limiting research venepuncture to coincide with clinical venepuncture.
+
+## Benefits to Participants
+
+There will be no direct benefit to research participants. The study may include biological sampling in addition to sampling required for medical management. The results of the tests done on these samples may not contribute to improving the participant's health. The results of this study will not be available in time to contribute to the participant's care. Where possible, test results with potential relevance to patient care will be informed to the participant and/or treating doctor. The feasibility of this will depend on local resources. Some assays cannot immediately benefit the patient because data will need to be pooled with others, or because the assays take time.
+
+## Participation in Other Research Studies / Co-enrolment
+
+Particularly in the case of emerging infections, it is likely that other research projects, including clinical trials, will also recruit participants in this study. In fact, it is important that they do so, and great effort has been expended to ensure that this observational study is compatible with, and complementary to, other possible research projects.
+
+## Confidentiality
+
+This study will be conducted by clinical staff and those involved in the study will ensure that each study participant's privacy and confidentiality is maintained. Participants will not be identified in any published reports of this study. All records will be kept confidential to the extent provided by international and local law. All laboratory specimens, evaluation forms, reports, study protocol, documentation, data and all other information generated will be held in strict confidence. No information concerning the study, or the data will be released to any unauthorized third party.
+
+Paper and electronic medical records may be accessed during the study to confirm, verify or complete clinical information provided in the case report form.
+
+Site files will at all times be accessible only to clinical and research staff. Consent will be sought for investigators to access patient data. Local research staff will access personal information, but all data will be pseudo-anonymised before transfer by eCRF.
+
+It is important that data generated now is not destroyed unnecessarily, since they will be of considerable potential value to future generations faced with similar outbreaks of infectious disease. Electronic data and electronic copies of paper documents will be stored for at least 5 years.
+
+## Custody of Data and Samples
+
+Custody of site data will remain with the responsible physician at the site. Samples may be shipped (depending upon pathogen of interest) to a reference laboratory for analysis as approved by the appropriate ethics/institutional review committee. Any residual sample will remain in the custody of the site until use can be decided upon.
+
+## Additional Ethical Considerations
+
+**Recruitment of critically ill patients who are not able to consent.** This is a ubiquitous problem in acute and critical care research and there is a clear legal framework under which these patients may be recruited to research studies. In all cases, efforts will be made to obtain informed consent from patients early in the course of illness, before critical illness interferes with their capacity to make decisions and to confirm consent at the earliest point in recovery. This principle applies equally to adults and children.
+
+**Perceived coercion because of individual responsibilities to society, and the implications of this research for public health.** We are sensitive to the fact that some patients or their representatives may feel under an unusually strong moral obligation to participate given the nature of this research and the wide, and often inaccurate, publicity surrounding emerging infections. In view of this, we have tried to make both the potential benefits and limitations of this simple observational study clear in the information sheet. In the informed consent form we also stress that participation is entirely voluntary and there is no penalty of any kind for declining to join the study.
+
+**Balance between public health and research.** Patients with emerging infections are commonly the subject of public health investigations. The work proposed here is research and will be clearly presented as such. There is no primary gain to the patient from participating. In designing and describing this research we are clear that, in accordance with the guiding principles of Good Clinical Practice, the needs and autonomy of the individual are paramount and the potential benefits to wider society do not take precedence.
+
+**Risks to clinical and research staff treating the participants.**  Staff who enrol, examine and take samples from study patients are at risk of infection. Care of study participants will require increased sampling and contact frequency added to normally heavy clinical workloads. All staff must be trained in recognised infection control measures and have ready access to appropriate personal protective equipment. In collaboration with the public health authorities, there will be on-going communication with hospital staff to ensure the appropriate training is given, to support the work and to ensure that there is no excess burden on the health system. Where appropriate, dedicated research staff will be available to support the study activities.
+
+## Scientific and Peer Review
+
+The proposed research is the product of several years of discussion within a group of international experts who were brought together following the 2009 influenza pandemic to plan the global research response to future severe and emerging infections: the International Severe Acute Respiratory and Emerging Infection Consortium (ISARIC). ISARIC working group 3 (genomics, pathogenesis and pharmacology) comprised senior clinical scientists from 5 continents working together to promote and harmonise observational research during outbreaks of severe infectious disease.
+
+\newpage
+# Appendix 1: Version history and contributors {.appendix .unnumbered}
+
+**Version number 3.3** (2024)(amended by Laura Merson, Kenneth Baillie, Malcolm (Calum) G Semple, Antonia Ho and Clark Russell on behalf of international collaborators in the ISARIC CCP group)
+
+**Version number 3.2** (2020)(amended by Clark Russell on behalf of international collaborators in the ISARIC CCP group)
+
+**Version number 3.1** (2020)(amended by Kenneth Baillie and international collaborators in the ISARIC CCP group)
+
+**Version number 3.01** (2016)(amended by Malcolm (Calum) G Semple and Gail Carson)
+
+**Version numbers 2.4.2 to 2.5.4** (2013)(amended by Kenneth Baillie and ISARIC working group 3)
+
+**Version number 1.0** (2012)(written by Kenneth Baillie on behalf of the ISARIC working group on observational research: Sylvie van der Werf, Peter J M Openshaw, Jake W Dunning, Laura Merson, Jeremy Farrar, Gail Carson, Gernot G U Rohde, Zhancheng Gao, Malcolm (Calum) G Semple, Dat Tran, Anthony Gordon, Piero L Olliaro, Saye H Khoo, Roberto Bruzzone, Peter Horby, J Perren Cobb, Kajsa-Stina Longuere, Paul Kellam, Alistair Nichol, Stephen Brett, Dean Everett, Timothy S Walsh, Tran-Tinh Hien, Hongjie Yu, Maria Zambon, Guillermo Ruiz-Palacios, Trudie Lang, Tamuna Akhvlediani, Frederick G Hayden, John Marshall, Steve Webb, Derek C Angus, Nahoko Shindo)
+
+
+\newpage
+# Appendix 2: Full biological sampling processing table {.appendix .unnumbered}
+
+{{< include tables/sample-processing.md >}}
+
+\newpage
+# Appendix 5: Procedure for additional sampling for pharmacokinetic/ pharmacodynamics studies. {.appendix .unnumbered}
+
+*\[Where a pharmacokinetic study is run concurrently with this protocol\]* Up to 3 additional samples may be obtained at intervals spread throughout the dosing schedule (ideally including one sample immediately before a dose) of the drug being studied. The spread of the samples can be determined on a case-by-case basis to fit in with clinical care; provided the precise times of administration and the precise time of blood sampling are recorded, samples taken at any time will be of use for analysis using population pharmacokinetic methods.
+
+Samples will be taken in conjunction with those required for clinical care in order to minimize research-specific intervention. Samples taken outside of the scheduled days can be used for study testing and should be recorded with the accurate sampling date.
+
+For respiratory samples for SARI patients, a combined nose and throat swab will be collected from all patients. If a patient is intubated an endotracheal aspirate will also be collected. Also, where resources permit, a Nasopharyngeal aspirate (NPA) OR (if NPA impossible) a flocked nose and throat swab sample will also be collected. A sputum sample will be collected when a productive cough is present, and the patient is able to produce one.
+
+Infection site samples are samples of tissue or fluid or swabs taken from infected sites such as an inflamed oropharynx or inflamed conjunctiva.
+
+Residual volumes of all other samples taken for clinical care will be stored.
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+project:
+  output-dir: protocol
+  render:
+    - "*.qmd"
+    - "!tables/"
+highlight-style: github
+number-sections: true
+toc: true
+csl: csl/minimal-grant-proposals.csl
+bibliography: cs.bib
+execute:
+  echo: false
+format:
+  docx:
+    margin-left: 20mm
+    margin-right: 20mm
+link-citations: true
+numbersections: true
+reference-section-title: References
+figureTitle: Figure
+figPrefix:
+  - "Figure"
+  - "Figures"
+tableTitle: Table
+tblPrefix:
+  - "Table"
+  - "Tables"
